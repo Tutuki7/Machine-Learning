@@ -1,0 +1,26 @@
+# The 18 features later proposed by Tiago. 
+
+num_features = [
+    "RECENT_AVG_GIFT_AMT", 
+    "LAST_GIFT_AMT", 
+    "LIFETIME_AVG_GIFT_AMT",
+    "RECENT_AVG_CARD_GIFT_AMT", 
+    "LIFETIME_MAX_GIFT_AMT", 
+    "NUMBER_PROM_12",
+    "MONTHS_SINCE_LAST_GIFT", 
+    "MONTHS_SINCE_FIRST_GIFT", 
+    "LIFETIME_GIFT_COUNT",
+    "PER_CAPITA_INCOME", 
+    "MEDIAN_HOUSEHOLD_INCOME",
+    "RECENT_RESPONSE_PROP", 
+    "RECENT_RESPONSE_COUNT", 
+    "WEALTH_RATING"
+]
+
+
+cat_features = [
+    "URBANICITY", 
+    "SES", 
+    "DONOR_GENDER", 
+    "RECENCY_STATUS_96NK"
+]
